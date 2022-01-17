@@ -1,0 +1,96 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(25, 25, 25);
+}
+.search-bar{
+  display: flex;
+    flex-direction: row;
+    background-color:rgb(50, 50, 50);
+    filter: drop-shadow(0 0 0.50rem rgb(25, 25, 25));
+    padding: 20px;
+    border-radius: 25px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.search-input{
+  background-color: transparent;
+  border-color: transparent;
+  font-size: large;
+  color: #fff;
+  font-weight: bold;
+}
+.search-btn{
+  background-color: transparent;
+  border-color: #fff;
+  border-radius: 7px;
+  font-size: large;
+  font-weight: bold;
+  color: #fff;
+}
+
+.card-body{
+  display: flex;
+    flex-direction: row;
+    background-color:rgb(50, 50, 50);
+    filter: drop-shadow(0 0 0.50rem rgb(25,25,25));
+    padding: 20px;
+    border-radius: 25px;
+    margin: 20px;
+    color: #fff;
+    width: 322px;
+}
+.card-column{
+  display: flex;
+  flex-direction: column;
+}
+.card-row{
+  display: flex;
+  flex-direction: row;
+}
+.main{
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 5px;
+}
+.name{
+  margin: 0px;
+  font-size: large;
+}
+.card-header{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.card-footer{
+  display: flex;
+  align-items: flex-end;
+}
+.secondary-info{
+  margin-bottom: 0px;
+}
+.card-main{
+  display: flex;
+  justify-content: space-between;
+}
+.weather-icon{
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+}
+.temp{
+  padding-top: 15px;
+  padding-left: 15px;
+  position: absolute;
+  font-size:48px;
+  font-weight: bolder;
+  filter: drop-shadow(0 0 0.20rem rgb(25, 25, 25));
+}
+.min-max{
+  margin: 0px;
+}
+.card-min-max{
+  display: flex;
+  justify-content: start;
+}
